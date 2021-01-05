@@ -1,0 +1,18 @@
+Done
+- json object for questions
+- html + CSS
+- add dummy data
+- create style
+
+In Progress
+- fetch num of questions
+- show questions count + category
+- show num of bullets depend on questions count
+- num of wrong and right questions
+- countdown timer
+- fetch questions from the json object
+- show first question
+- check right or wrong and hide question
+- countdown = 0 ... mark question as wrong next question
+- add class done on bullet after answer the question
+- show results after finished
