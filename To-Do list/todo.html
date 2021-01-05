@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="todo.css">
+    <!--sweet alert css-->
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>
+  </head>
+  <body>
+    <div class="todo-contanier">
+      <div class="add-task">
+        <input type="text">
+        <span class="plus">+</span>
+      </div>
+      <div class="tasks-content">
+        <span class="no-tasks-message">No Taskes yet</span>
+        <!--<span class="task-box">
+          <span class="finished">task one</span>
+          <span class="delete">Delete</span>
+        </span>
+        <span class="task-box">
+          <span>task two</span>
+          <span class="delete">Delete</span>
+        </span>-->
+      </div>
+    </div>
+    <div class="task-stats">
+      <div class="tasks-count">
+        Tasks <span>0</span>
+      </div>
+      <div class="tasks-completed">
+        Completed <span>0</span>
+      </div>
+    </div>
+    <div class="shortCuts">
+      <button id="finishAll">Finish All</button>
+      <button id="deleteAll">Delete All</button>
+    </div>
+    <!--sweet alert js-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script><script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
+    <script src="todo.js"></script>
+  </body>
+</html>
